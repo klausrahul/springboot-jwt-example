@@ -21,7 +21,7 @@ import com.rahul.jwt.api.service.CustomUserDetailService;
 @EnableWebSecurity
 @SuppressWarnings("deprecation")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-
+//
 	@Autowired
 	private CustomUserDetailService detailService;
 	@Autowired
